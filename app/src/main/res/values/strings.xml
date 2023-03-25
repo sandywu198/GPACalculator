@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CalculatorApp</string>
+
+    <string name="directions_text">You can calculate your semester GPA here. Add \nthe class name the weight of it.</string>
+
+</resources>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPA Calculator!"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/directions_text"
+        app:layout_constraintEnd_toEndOf="@+id/heading"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/heading"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/className"
+        android:layout_width="148dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:text="Class Name"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/directions" />
+
+    <EditText
+        android:id="@+id/class1"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Class 1"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/className"
+        app:layout_constraintStart_toStartOf="@+id/className"
+        app:layout_constraintTop_toBottomOf="@+id/className" />
+
+    <EditText
+        android:id="@+id/class2"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Class 2"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/class1"
+        app:layout_constraintStart_toStartOf="@+id/class1"
+        app:layout_constraintTop_toBottomOf="@+id/class1" />
+
+    <EditText
+        android:id="@+id/class3"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Class 3"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/class2"
+        app:layout_constraintStart_toStartOf="@+id/class2"
+        app:layout_constraintTop_toBottomOf="@id/class2" />
+
+    <EditText
+        android:id="@+id/class4"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Class 4"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/class3"
+        app:layout_constraintStart_toStartOf="@+id/class3"
+        app:layout_constraintTop_toBottomOf="@id/class3" />
+
+    <EditText
+        android:id="@+id/class5"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Class 5"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/class4"
+        app:layout_constraintStart_toStartOf="@+id/class4"
+        app:layout_constraintTop_toBottomOf="@id/class4" />
+
+    <TextView
+        android:id="@+id/gpaWeight"
+        android:layout_width="108dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="16dp"
+        android:text="Weight"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/className"
+        app:layout_constraintTop_toBottomOf="@+id/directions"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/weight1"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Credit"
+        android:inputType="number"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/gpaWeight"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@+id/gpaWeight"
+        app:layout_constraintTop_toBottomOf="@id/gpaWeight" />
+
+    <EditText
+        android:id="@+id/weight2"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Credit"
+        android:inputType="number"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/weight1"
+        app:layout_constraintTop_toBottomOf="@id/weight1" />
+
+    <EditText
+        android:id="@+id/weight3"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Credit"
+        android:inputType="number"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/weight2"
+        app:layout_constraintTop_toBottomOf="@id/weight2" />
+
+    <EditText
+        android:id="@+id/weight4"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Credit"
+        android:inputType="number"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/weight3"
+        app:layout_constraintTop_toBottomOf="@id/weight3" />
+
+    <EditText
+        android:id="@+id/weight5"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Credit"
+        android:inputType="number"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/weight4"
+        app:layout_constraintTop_toBottomOf="@id/weight4" />
+
+
+    <TextView
+        android:id="@+id/letterGrade"
+        android:layout_width="108dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Grade"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/gpaWeight"
+        app:layout_constraintTop_toBottomOf="@+id/directions"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/grade1"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Grade"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/letterGrade"
+        app:layout_constraintStart_toStartOf="@+id/letterGrade"
+        app:layout_constraintTop_toBottomOf="@+id/letterGrade" />
+
+    <EditText
+        android:id="@+id/grade2"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Grade"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/grade1"
+        app:layout_constraintStart_toStartOf="@+id/grade1"
+        app:layout_constraintTop_toBottomOf="@+id/grade1" />
+
+    <EditText
+        android:id="@+id/grade3"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Grade"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/grade2"
+        app:layout_constraintStart_toStartOf="@+id/grade2"
+        app:layout_constraintTop_toBottomOf="@id/grade2" />
+
+    <EditText
+        android:id="@+id/grade4"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Grade"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/grade3"
+        app:layout_constraintStart_toStartOf="@+id/grade3"
+        app:layout_constraintTop_toBottomOf="@id/grade3" />
+
+    <EditText
+        android:id="@+id/grade5"
+        android:layout_width="112dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Grade"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/grade4"
+        app:layout_constraintStart_toStartOf="@+id/grade4"
+        app:layout_constraintTop_toBottomOf="@id/grade4" />
+
+    EditText weight1 = (EditText) findViewById(R.id.weight1);
+    String weiStr1 = weight1.getText().toString();
+</androidx.constraintlayout.widget.ConstraintLayout>
