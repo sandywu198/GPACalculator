@@ -3,7 +3,7 @@
 
 Submitted by: Sandy Wu
 
-Time spent: 4 hours spent in total
+Time spent: 12 hours spent in total
 
 ## Summary
 
