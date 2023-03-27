@@ -18,8 +18,8 @@ If I had to describe this project in three (3) emojis, they would be: 🤨😐�
 The following REQUIRED features are completed:
 
 - [X] At least one (1) user input
-- [ ] At least one (1) interactive View
-- [ ] At least one (1) output of a calculation based on the user input
+- [X] At least one (1) interactive View
+- [X] At least one (1) output of a calculation based on the user input
 
 The following STRETCH features are implemented:
 
@@ -33,8 +33,7 @@ The following EXTRA features are implemented:
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
-
-![CalculatorApp](https://user-images.githubusercontent.com/118078517/227700541-5022f1e9-4dba-4480-8ac7-a06c85655500.gif)
+![CalculatorApp](https://user-images.githubusercontent.com/118078517/227831319-02299817-c904-44a0-a149-a845776acbb5.gif)
 
 GIF created with ScreentoGif
 
